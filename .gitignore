@@ -1,0 +1,20 @@
+# aqui en gitignore vamos a agregar todas las dependencias que no queremos que se suba a la nube
+# Dependencias
+node_modules/
+
+# Entorno laboral nunca pero nunca comitear ya sabes
+.env
+.env.local
+
+# Logs -> osea todo los logs errores que aparecieron en la app
+*.log
+npm-debug.log
+
+# Aqui tambien en gitignore nunca se sube los archivos temporales ni la cache del editor que este genera de manera automatica
+
+.DS_Store
+.idea/
+.vscode/
+
+# Algo tambien importate la cobertura de tests
+coverage/
